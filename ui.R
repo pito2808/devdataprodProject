@@ -12,7 +12,7 @@ shinyUI(pageWithSidebar(
     submitButton('Submit')
   ),
   mainPanel(
-    h3('Main Panel text'),
+    h3('Main Panel'),
     p(em("documentation:",a("Read Me",href="index.html"))),  
     h3('weight entered (unit lb/1000)'),
     verbatimTextOutput("inputwt"),
