@@ -13,12 +13,12 @@ shinyUI(pageWithSidebar(
   ),
   mainPanel(
     h3('Main Panel text'),
-    p(em("Github repository documentation:",a("Read Documentation",href="index.html"))),  
-    h3('weight entered (unit lb/1000'),
+    p(em("documentation:",a("Read Me",href="index.html"))),  
+    h3('weight entered (unit lb/1000)'),
     verbatimTextOutput("inputwt"),
     h3('cyl entered'),
     verbatimTextOutput("inputcyl"),
-    h3("MPG estimate (miles/gallon"),
+    h3("MPG estimate (miles/gallon)"),
     verbatimTextOutput("mpg")
   )
 ))  
