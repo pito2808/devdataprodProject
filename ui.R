@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
   ),
   mainPanel(
     h3('Main Panel text'),
-    p(em("Github repository documentation:",a("Github repo",href="https://github.com/pito2808/devdataprodProject/www"))),  
+    p(em("Github repository documentation:",a("Read Documentation",href="index.html"))),  
     h3('weight entered (unit lb/1000'),
     verbatimTextOutput("inputwt"),
     h3('cyl entered'),
